@@ -6,12 +6,11 @@ body {
 div {
     min-height: 100vh;
     width: 100vw;
-    background-color: rgb(17,209,239);
     align-items: flex-end;
-}
+    }
+
     h1, h2 {
         text-align: center;
-
     }
     h1 {
         font-size: 5em;
@@ -45,12 +44,6 @@ li:hover{
   color: yellow;
   transition: 0.6s ease;
 }
-
-div.contrast{
-  background-image: linear-gradient(red, yellow);
-  color: rgb(255,255,255);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+div.Top {
+  background-color: blue;
 }
