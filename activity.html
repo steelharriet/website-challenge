@@ -2,80 +2,124 @@
 <html>
 <head>
 <title>Books by activity</title>
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.css" crossorigin="anonymous">
       <link rel="stylesheet" type="text/css" href="CSS/style.css">
 </head>
-</head>
-
+<body>
   <div>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Books Books Books</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" href="#">Books</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-          <a class="nav-item nav-link" href="#">About</a>
-          <a class="nav-item nav-link" href="#">Books by emotion</a>
-          <a class="nav-item nav-link" href="#">Books by country</a>
-          <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-        </div>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="activity.html">Books by activity</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="map.html">Books by location</a>
+          </li>
+        </ul>
       </div>
     </nav>
-<body>
-<div class="jumbotron text-center">
-  <div class="container">
-    <h1 class="display-4">Books by activity</h1>
-    <p class="lead">Stuck on what to read next? Whether you're lounging by the pool or stuck on a commute, get inspiration for your next read below.</p>
-  </div>
+  <div>
+ <div class="jumbotron">
+   <div class="container">
+     <h1 class="display-4">Books by activity</h1>
+     <p class="lead">Stuck on what to read next? Whether you're lounging by the pool or stuck on a commute, get inspiration for your next read below.</p>
+   </div>
+ </div>
+ <br>
+ <div class="container marketing">
+    <div class="row">
+      <div class="book">
+        <div class="col-lg-4">
+          <img src="Images/books.jpg">
+          <h2>Beach Reads</h2>
+          <ul>
+          <li>Book 1</li>
+          <li>Book 2</li>
+          <li>Book 3</li>
+          <li>Book 4</li>
+          </ul>
+          <p><a class="btn btn-secondary" href="#" role="button">See more &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div>
+      <div class="book">
+        <div class="col-lg-4">
+          <img src="Images/books.jpg">
+          <h2>Long Commute</h2>
+          <ul>
+          <li>Book 1</li>
+          <li>Book 2</li>
+          <li>Book 3</li>
+          <li>Book 4</li>
+          </ul>
+          <p><a class="btn btn-secondary" href="#" role="button">See more &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div>
+      <div class="book">
+        <div class="col-lg-4">
+          <img src="Images/books.jpg">
+          <h2>Bedtime reads</h2>
+          <ul>
+          <li>Book 1</li>
+          <li>Book 2</li>
+          <li>Book 3</li>
+          <li>Book 4</li>
+          </ul>
+          <p><a class="btn btn-secondary" href="#" role="button">See more &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div>
+      <div class="book">
+        <div class="col-lg-4">
+          <img src="Images/books.jpg">
+          <h2>In the park</h2>
+          <ul>
+          <li>Book 1</li>
+          <li>Book 2</li>
+          <li>Book 3</li>
+          <li>Book 4</li>
+          </ul>
+          <p><a class="btn btn-secondary" href="#" role="button">See more &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div>
+      <div class="book">
+        <div class="col-lg-4">
+          <img src="Images/books.jpg">
+          <h2>Book Club</h2>
+          <ul>
+          <li>Book 1</li>
+          <li>Book 2</li>
+          <li>Book 3</li>
+          <li>Book 4</li>
+          </ul>
+          <p><a class="btn btn-secondary" href="#" role="button">See more &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div>
+      <div class="book">
+        <div class="col-lg-4">
+          <img src="Images/books.jpg">
+          <h2>In the bath</h2>
+          <ul>
+          <li>Book 1</li>
+          <li>Book 2</li>
+          <li>Book 3</li>
+          <li>Book 4</li>
+          </ul>
+          <p><a class="btn btn-secondary" href="#" role="button">See more &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div>
+  </div><!-- /.row -->
 </div>
-<br>
-<div>
-<div id="myCarousel" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-    <li data-target="#myCarousel" data-slide-to="1"></li>
-    <li data-target="#myCarousel" data-slide-to="2"></li>
-  </ol>
-
-<div class="container marketing">
-   <div class="row">
-     <div class="col-lg-4">
-       <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-       <h2>Beach Reads</h2>
-       <ul>
-       <li>Book 1</li>
-       <li>Book 2</li>
-       <li>Book 3</li>
-       <li>Book 4</li>
-       </ul>
-       <p><a class="btn btn-secondary" href="#" role="button">See more &raquo;</a></p>
-     </div><!-- /.col-lg-4 -->
-     <div class="col-lg-4">
-       <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-       <h2> Long Commute</h2>
-       <ul>
-       <li>Book 1</li>
-       <li>Book 2</li>
-       <li>Book 3</li>
-       <li>Book 4</li>
-       </ul>
-       <p><a class="btn btn-secondary" href="#" role="button">See more &raquo;</a></p>
-     </div><!-- /.col-lg-4 -->
-     <div class="col-lg-4">
-       <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-       <h2>Bedtime Reads</h2>
-       <ul>
-       <li>Book 1</li>
-       <li>Book 2</li>
-       <li>Book 3</li>
-       <li>Book 4</li>
-       </ul>
-       <p><a class="btn btn-secondary" href="#" role="button">See more &raquo;</a></p>
-     </div><!-- /.col-lg-4 -->
-   </div><!-- /.row -->
 
 <footer class="footer mt-auto py-3">
      <div class="container">
