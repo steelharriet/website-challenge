@@ -5,6 +5,10 @@ body {
   margin: 50px ;
 }
 
+body {
+  background-image: url("../Images/books.jpg");
+}
+
 head {
  margin-top: 100px;
  margin-bottom: 100px;
@@ -12,27 +16,37 @@ head {
  margin-left: 80px;
 }
 
-
-div {
-
-}
-
-
     h1 {
         font-size: 5em;
         text-align: center;
     }
 
-
-
-nav{
+nav {
   background-color: rgb(221, 31, 101);
   opacity: 0.7;
 }
+
 .container {
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+}
+
+ul{
+  text-align: center;
+}
+
+.nav-item {
+  font-size: 2em;
+}
+
+.nav-link:hover {
+  font-size: 1.2em;
+  color: pink;
+  transition: 0.9s ease;
+}
+.pop {
+  font-size: 2em;
 }
