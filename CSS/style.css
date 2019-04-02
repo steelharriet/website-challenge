@@ -21,6 +21,10 @@ p {
   text-align: center;
 }
 
+.location {
+  padding-bottom: 200px;
+}
+
 iframe {
   align-content: center;
 }
