@@ -32,6 +32,8 @@ nav{
 
 .jumbotron {
     background-color: rgb(96, 75, 101);
+    color: rgb(255, 255, 255);
+    border-radius: 25px;
     padding: 0.5em 0.6em;
     h1 {
         font-size: 2em;
@@ -48,6 +50,10 @@ nav{
 
 .book {
 margin: 10px 0 10px 0;
-color: black
+color: rgb(255,255,255);
+
+}
+.jumbo_emotion {
+margin: 20px 0 20px 0;
 
 }
