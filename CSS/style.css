@@ -1,17 +1,21 @@
 body {
-  background-color: orange;
+  background-color: rgb(255, 153, 51);
   color: rgb(65,75,86);
   font-family: arial;
   margin: 50px;
 }
 
-header {
-  margin-top: 100px;
+head {
+ margin-top: 100px;
  margin-bottom: 100px;
  margin-right: 150px;
  margin-left: 80px;
 }
 
+
+div {
+
+}
 
 
     h1 {
