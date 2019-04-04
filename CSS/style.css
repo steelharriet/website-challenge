@@ -5,7 +5,7 @@ body {
   margin: 50px;
 }
 
-head {
+header {
  margin-top: 100px;
  margin-bottom: 100px;
  margin-right: 150px;
@@ -21,10 +21,6 @@ p {
   text-align: center;
 }
 
-.location {
-  padding-bottom: 200px;
-}
-
 iframe {
   align-content: center;
 }
@@ -32,6 +28,16 @@ iframe {
 nav{
   background-color: rgb(221, 31, 101);
   opacity: 0.7;
+}
+
+.location {
+  font-weight: bold;
+
+}
+
+.blockquote {
+  text-align: center;
+  padding-top: 2em;
 }
 
 .jumbotron {
