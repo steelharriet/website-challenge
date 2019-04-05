@@ -3,6 +3,7 @@ body {
   color: rgb(65,75,86);
   font-family: arial;
   margin: 50px;
+;
 }
 
 header {
@@ -42,8 +43,8 @@ nav{
 
   img {
   object-fit: cover;
-  width:230px;
-  height:230px;
+  width:330px;
+  height:330px;
   border-radius: 50%;
 }
 
@@ -71,6 +72,17 @@ margin: 10px 0 10px 0;
 color: rgb(255,255,255);
 
 }
+
+.book2 {
+  margin: 0 auto;
+  text-align: center;
+  width: 500px;
+}
+
+ul {
+    text-align: center;
+}
+
 .jumbo_emotion {
 margin: 20px 0 20px 0;
 
