@@ -41,7 +41,7 @@ nav{
   padding-top: 2em;
 }
 
-  img {
+  #img_activity {
   object-fit: cover;
   width:330px;
   height:330px;
