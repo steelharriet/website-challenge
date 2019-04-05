@@ -6,7 +6,12 @@ body {
 }
 
 body {
-  background-image: url("../Images/books.jpg");
+  background-image: url("../Images/background.jpeg");
+  height: 500px;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ position: relative;
 }
 
 head {
@@ -21,11 +26,6 @@ head {
         text-align: center;
     }
 
-nav {
-  background-color: rgb(221, 31, 101);
-  opacity: 0.7;
-}
-
 .container {
     width: 100%;
     padding-right: 15px;
@@ -34,19 +34,32 @@ nav {
     margin-left: auto;
 }
 
-ul{
+.list{
   text-align: center;
 }
 
-.nav-item {
+
+.nav-link {
   font-size: 2em;
+  text-align: center;
 }
 
 .nav-link:hover {
-  font-size: 1.2em;
+  font-size: 2.5em;
   color: pink;
   transition: 0.9s ease;
 }
 .pop {
   font-size: 2em;
 }
+
+a.button{
+  background-color: #4286f4;
+   border: none;
+   color: white;
+   padding: 15px 25px;
+   text-align: center;
+   font-size: 20px;
+   cursor: pointer;
+   border-radius: 12px;
+ }
