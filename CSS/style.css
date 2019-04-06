@@ -32,15 +32,21 @@ nav{
 
 .location {
   font-weight: bold;
+  text-align: center;
 
+}
+
+.mb-0 {
+  text-align: center;
 }
 
 .blockquote {
   text-align: center;
+  font-weight: bold;
   padding-top: 2em;
 }
 
-  img {
+  #img_activity {
   object-fit: cover;
   width:330px;
   height:330px;
@@ -60,6 +66,7 @@ nav{
     p {
         font-size: 1.2em;
         color: white;
+        text-align: center;
         .btn {
             padding: 0.5em;
         }
