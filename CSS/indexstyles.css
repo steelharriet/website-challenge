@@ -34,14 +34,15 @@ head {
     margin-left: auto;
 }
 
-.list{
+.links {
   text-align: center;
 }
-
 
 .nav-link {
   font-size: 2em;
   text-align: center;
+  background-color: red;
+  
 }
 
 .nav-link:hover {
@@ -49,6 +50,7 @@ head {
   color: pink;
   transition: 0.9s ease;
 }
+
 .pop {
   font-size: 2em;
 }
