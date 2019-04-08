@@ -73,6 +73,10 @@ nav{
     }
 }
 
+ul {
+    text-align: center;
+}
+
 .book {
 margin: 10px 0 10px 0;
 color: rgb(255,255,255);
@@ -80,13 +84,10 @@ color: rgb(255,255,255);
 }
 
 .book2 {
-  margin: 0 auto;
+  margin: 50px auto;
+  width: 490px;
+  padding:50px;
   text-align: center;
-  width: 500px;
-}
-
-ul {
-    text-align: center;
 }
 
 .jumbo_emotion {
