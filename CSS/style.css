@@ -18,7 +18,7 @@ h1 {
     }
 
 p {
-  text-align: left;
+  text-align: center;
 }
 
 iframe {
@@ -63,6 +63,10 @@ nav{
         font-size: 2em;
         color: white;
     }
+
+.lead {
+  text-align: center
+}
     p {
         font-size: 1.2em;
         color: white;
