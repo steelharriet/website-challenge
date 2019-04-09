@@ -89,11 +89,10 @@ color: rgb(255,255,255);
 }
 
 .book2 {
-  margin: 50px auto;
-  width: 490px;
-  padding:50px;
-  text-align: justify;
-}
+	  margin: 0 auto;
+	  text-align: center;
+	  width: 500px;
+	}
 
 .jumbo_emotion {
 margin: 20px 0 20px 0;
