@@ -105,10 +105,14 @@ margin: 20px 0 20px 0;
     margin-right: auto;
     margin-left: auto;
 }
+.col-lg-4 {
+   max-width: 100%;
+
+}
 
 .librarian {
-  text-align: center;
-  color: white;
-  font-weight: bold;
-  
+     text-align: center;
+     color: white;
+     font-weight: bold;
+
 }
